@@ -250,18 +250,22 @@ hr {
   font-family: 'FreightDispProSemibold'; }
 
 .field ::-webkit-input-placeholder {
+  color: #888;
   font-family: 'Montserrat';
   font-size: 1em; }
 
 .field :-ms-input-placeholder {
+  color: #888;
   font-family: 'Montserrat';
   font-size: 1em; }
 
 .field ::-ms-input-placeholder {
+  color: #888;
   font-family: 'Montserrat';
   font-size: 1em; }
 
 .field ::placeholder {
+  color: #888;
   font-family: 'Montserrat';
   font-size: 1em; }
 
@@ -317,8 +321,11 @@ hr {
 .input, .select {
   min-width: 220px; }
 
-select, label {
+select {
   font-family: 'Montserrat'; }
+
+.select select {
+  color: #888 !important; }
 
 .svgs {
   display: block !important;
