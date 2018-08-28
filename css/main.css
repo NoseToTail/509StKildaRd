@@ -395,8 +395,8 @@ select {
   .content {
     padding: 17px 20px 35px; }
   .header {
-    -webkit-transform: translateY(70%);
-    transform: translateY(70%); }
+    -webkit-transform: translateY(55%);
+    transform: translateY(55%); }
   .header__logo {
     -webkit-transform: translateY(-290%);
     transform: translateY(-290%);
