@@ -322,6 +322,23 @@ hr {
   font-family: 'FreightDispProBookItalic';
   font-style: italic; }
 
+.footer__banner {
+  background-color: #000;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.footer__banner img {
+  width: auto;
+  height: 20px; }
+
 .contactUs {
   text-align: center;
   color: #fff;
